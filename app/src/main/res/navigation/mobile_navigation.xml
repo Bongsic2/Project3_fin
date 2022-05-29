@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+
+    app:startDestination="@+id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.othercock.ui.Login.LoginFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.othercock.ui.home.HomeFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_coopone"
+        android:name="com.example.othercock.ui.coopone.CooponeFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_coopone" />
+
+    <fragment
+        android:id="@+id/nav_rank"
+        android:name="com.example.othercock.ui.tier.TierFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_tier" />
+
+    <fragment
+        android:id="@+id/nav_othermain"
+        android:name="com.example.othercock.ui.other.OtherFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_othermain" />
+    <fragment
+        android:id="@+id/nav_stemp"
+        android:name="com.example.othercock.ui.stemp.StempFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_stemp" />
+    <fragment
+        android:id="@+id/nav_menu"
+        android:name="com.example.othercock.ui.menu.MenuFragment"
+        android:label="메뉴소개"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/nav_favorite_menu"
+        android:name="com.example.othercock.ui.menu.FavoriteMenuFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_favorite_menu" />
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.example.othercock.ui.store.StoreInfoFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_storeinfo" />
+    <fragment
+        android:id="@+id/nav_Login"
+        android:name="com.example.othercock.ui.Login.LoginFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_Register"
+        android:name="com.example.othercock.ui.Login.SignupFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_signup" />
+    <fragment
+        android:id="@+id/nav_Forgot"
+        android:name="com.example.othercock.ui.Login.ForgotPasswordFragment"
+        android:label="오더 콕"
+        tools:layout="@layout/fragment_forgot_password" />
+
+
+
+</navigation>

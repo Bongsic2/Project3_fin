@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+            <android.widget.Button
+                android:id="@+id/fullmenubtn"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btncolor"
+                android:text="전체메뉴"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <android.widget.Button
+                android:id="@+id/bingsubtn"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btncolor"
+                android:text="빙수"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <android.widget.Button
+                android:id="@+id/dessertbtn"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btncolor"
+                android:text="디저트/사이드"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <android.widget.Button
+                    android:id="@+id/coffeebtn"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btncolor"
+                    android:text="커피"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <android.widget.Button
+                    android:id="@+id/Fruitbtn"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btncolor"
+                    android:text="열매한잔"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+                <android.widget.Button
+                    android:id="@+id/aidbtn"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/btncolor"
+                    android:text="스무디/에이드"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

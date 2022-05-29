@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rank"
+            android:icon="@drawable/nav_rank"
+            android:title="설빙맴버쉽" />
+        <item
+            android:id="@+id/nav_coopone"
+            android:icon="@drawable/nav_coopone"
+            android:title="쿠폰함" />
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/nav_bingsu"
+            android:title="메뉴소개" />
+        <item
+            android:id="@+id/nav_othermain"
+            android:icon="@drawable/nav_other"
+            android:title="설빙오더" />
+        <item
+            android:id="@+id/nav_stemp"
+            android:icon="@drawable/nav_stemp"
+            android:title="설빙스탬프" />
+        <item
+            android:id="@+id/nav_store"
+            android:icon="@drawable/nav_store"
+            android:title="인근매장" />
+        <item
+            android:id="@+id/nav_mypage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="고객소통창" />
+    </group>
+</menu>
